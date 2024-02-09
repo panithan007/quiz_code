@@ -3,7 +3,7 @@ import 'package:quiz007/models/question.dart';
 const List<Question> questions = [
   Question(
     question: '1.What is the capital of Thailand?',
-    correctAnswerIndex: 1,
+    correctAnswerIndex: 0,
     options: [
       'a) Bangkok',
       'b) Hanoi',
@@ -13,7 +13,7 @@ const List<Question> questions = [
   ),
   Question(
     question: '2. What is the largest city in Brazil?',
-    correctAnswerIndex: 3,
+    correctAnswerIndex: 1,
     options: [
       'a) Rio de Janeiro',
       'b) São Paulo',
@@ -23,7 +23,7 @@ const List<Question> questions = [
   ),
   Question(
     question: '3. What is the currency of Australia?',
-    correctAnswerIndex: 1,
+    correctAnswerIndex: 3,
     options: [
       'a) Euro',
       'b) Peso',
@@ -33,7 +33,7 @@ const List<Question> questions = [
   ),
   Question(
     question: '4. Who is the current President of the United States?',
-    correctAnswerIndex: 0,
+    correctAnswerIndex: 1,
     options: [
       'a) Donald Trump',
       'b) Joe Biden',
@@ -43,7 +43,7 @@ const List<Question> questions = [
   ),
   Question(
     question: '5. Which country is known as the Land of the Rising Sun?',
-    correctAnswerIndex: 2,
+    correctAnswerIndex: 1,
     options: [
       'a) China',
       'b) Japan',
@@ -53,7 +53,7 @@ const List<Question> questions = [
   ),
   Question(
     question: '6. What is the capital of Canada?',
-    correctAnswerIndex: 3,
+    correctAnswerIndex: 2,
     options: [
       'a) Toronto',
       'b) Vancouver',
@@ -63,7 +63,7 @@ const List<Question> questions = [
   ),
   Question(
     question: '7. What is the largest city in India?',
-    correctAnswerIndex: 0,
+    correctAnswerIndex: 1,
     options: [
       'a) Delhi',
       'b) Mumbai',
@@ -73,7 +73,7 @@ const List<Question> questions = [
   ),
   Question(
     question: '8. What is the official language of Argentina?',
-    correctAnswerIndex: 1,
+    correctAnswerIndex: 0,
     options: [
       'a) Spanish',
       'b) Portuguese',
@@ -84,7 +84,7 @@ const List<Question> questions = [
   Question(
     question:
         '9. What is the currency of South Africa?',
-    correctAnswerIndex: 3,
+    correctAnswerIndex: 2,
     options: [
       'a) Euro',
       'b) Dollar',
@@ -95,7 +95,7 @@ const List<Question> questions = [
    Question(
     question:
         '10. What is the smallest country in the world?',
-    correctAnswerIndex: 3,
+    correctAnswerIndex: 2,
     options: [
       'a) Monaco',
       'b) Maldives',
